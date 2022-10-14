@@ -1,0 +1,84 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    background-color:rgb(230, 219, 219);
+    gap: 5px 5px;
+    grid-auto-flow: row;
+  }
+  
+  .Logo {
+    
+    grid-area: 1 / 1 / 2 / 2;
+background-color: rgb(199, 60, 150);
+color: black;
+}
+  
+  .Main-Header { 
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: rgb(126, 125, 126);
+    color: black;
+}
+  
+  .Sub-Text {
+    
+    grid-area: 3 / 1 / 4 / 3;
+    background-color: rgb(126, 125, 126);
+    color: black;
+}
+  
+  .Article1 { 
+    background-color: rgb(126, 125, 126);
+    color: black;
+    grid-area: 4 / 1 / 5 / 2;
+
+}
+  
+  .Article2 { 
+    grid-area: 4 / 2 / 5 / 3; 
+    background-color: rgb(126, 125, 126);
+    color: black;
+}
+  
+  .Link1 { 
+    
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: rgb(198, 174, 189);
+    color: black;
+}
+  
+  .Link2 {
+    
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: rgb(198, 174, 189);
+    color: black;
+}
+  
+  .Link3 { 
+    
+    grid-area: 1 / 4 / 2 / 5; 
+    background-color: rgb(198, 174, 189);
+    color: black;
+}
+  
+  .Login {
+    
+    grid-area: 1 / 6 / 2 / 7;
+    background-color: rgb(51, 48, 52);
+    color: white;
+}
+  
+  .Aside {
+    
+    grid-area: 2 / 6 / 5 / 7;
+    background-color: rgb(68, 136, 238);
+    color: black;
+}
+  
+  .Footer { 
+    
+    grid-area: 5 / 1 / 6 / 7;
+    background-color: rgb(82, 70, 83);
+    color: rgb(255, 255, 255);
+}
+  
